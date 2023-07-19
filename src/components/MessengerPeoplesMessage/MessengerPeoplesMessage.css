@@ -1,0 +1,36 @@
+.Messsage-img img {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Messsage-img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.Messenger-left-col-people-message {
+  margin: 5px 0px 5px 5px;
+  display: flex;
+  font-size: 14px;
+  min-width: 200px;
+  cursor: pointer;
+  padding: 5px 7px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.Message-info {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.Message-info :nth-child(2) {
+  color: gray;
+  margin-top: 5px;
+}

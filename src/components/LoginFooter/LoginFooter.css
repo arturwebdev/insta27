@@ -1,0 +1,27 @@
+.loginFooter {
+  align-items: center;
+  text-align: center;
+}
+
+.footerPart1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.footerPart1 a {
+  font-size: 12px;
+  color: gray;
+  padding: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.footerPart2,
+.footerPart3 {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  padding-top: 15px;
+}

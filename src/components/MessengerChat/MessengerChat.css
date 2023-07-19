@@ -1,0 +1,43 @@
+.MessengerChat {
+  min-width: 100%;
+  min-height: 100%;
+  height: 637px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chatConteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageH1 {
+  display: inline-block;
+}
+
+.messageH1 .myMessage {
+  display: inline-block;
+
+  display: flex;
+  justify-content: flex-end;
+  min-width: 40%;
+  text-align: right;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0 10px 10px 50%;
+  font-size: clamp(12px, 2vw, 22px);
+  color: white;
+  background-color: rgb(80, 80, 234);
+}
+
+.messageH1 .otherMessage {
+  display: inline-block;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  font-size: clamp(14px, 2vw, 22px);
+  background-color: #efefef;
+  color: black;
+}
